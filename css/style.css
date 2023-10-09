@@ -1,0 +1,203 @@
+
+/* ------------------- Main section --------------------- */ 
+  .main {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 60px;
+    background-image: url("../images/headSec/head.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .main .head-content{
+    position: absolute;
+    top: 35%;
+    text-align: center;
+  }
+  .main .head-content h2{
+    font-size: 70px;
+    font-weight: bold;
+  }
+  /* --------------------- Features Section ----------------------- */
+.feature{
+  display: flex;
+  justify-content: center;
+}
+.feature img{
+  width: 55px;
+  height: 48px;
+  margin-right: 10px;
+}
+.product-info p{
+  
+  font-size: 15px;
+}
+.rate{
+  color: green;
+}
+.rate i{
+  color: orange;
+}
+.product-img{
+  width: 50%;
+  height: 300px;
+}
+
+.search .menu-icon{
+  top: 10%;
+  right: 5%;
+  color: #e91e63;
+}
+
+.search input{
+  border: 2px solid #e91e63;
+}
+.discount{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 0px 50px 50px 0px ;
+  color: #fff;
+  padding-top: 14px;
+  padding-right: 100px;
+  padding-left: 5px;
+}
+.add-wish i{
+  font-size: 25px;
+}
+.product .btn{
+  font-size: 14px;
+  color: #e91e63;
+  border: 1px solid #ccc;
+  transition-duration: 1s;
+}
+.product .btn:hover{
+  background-color: #e91e63;
+  color: #fff;
+}
+.img-icons{
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  width: 80%;
+  height: 300px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+.img-icons:hover{
+  opacity: 1;
+}
+.product-img{
+  transition-property: transform;
+    transform-origin: center center;
+    transition-duration: 2s;
+}
+.product:hover .product-img{
+  transform: scaleX(1.1);
+}
+.icons{
+  text-align: right;
+  color: #fff;
+}
+.icons span i{
+  padding-top: 13px;
+  background-color: rgb(116, 116, 116);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+}
+/* **************************** */
+#tabs{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+ul li {
+  cursor: pointer;
+}
+.active{
+  color: #e91e63;
+  border-bottom: 2px solid #e91e63;
+}
+#tab2Data , #tab3Data{
+  display: none;
+}
+
+/* ******************* Daily Deals  ************************* */
+#dailyDeals p{
+  border-bottom: 1px solid #ccc;
+}
+.count{
+  background-color: rgb(228, 228, 228);
+  border: 1px solid #ccc;
+  padding: 10px 5px 10px 5px;
+  border-radius: 5px;
+}
+.daily {
+  font-size: 14px;
+  color: #e91e63;
+  border: 1px solid #ccc;
+  transition-duration: 1s;
+}
+.daily:hover{
+  background-color: #e91e63;
+  color: #fff;
+}
+/* ** * ** * ** media query * ** * * ** * * */
+@media screen and (max-width:991px) and (min-width:770px){
+  .product-img{
+    margin: auto;
+    width: 70%;
+  }
+} 
+/* ********************** footer **************************** */
+footer{
+  background-color: rgb(226, 226, 226);
+}
+.sub{
+  font-size: 14px;
+  color: #fff;
+}
+.contact .info li{
+  color: rgb(134, 134, 134);
+  transition-duration: 1s;
+}
+.contact .info li:hover {
+  color: #e91e63;
+}
+.footer-title{
+  font-weight: 900;
+  color: #e91e63;
+}
+/* **************************************************************************************************************************************************************************************/
+/* ******************* login ****************** */
+
+#body{
+  height: 100vh;
+}
+#login{
+  position: relative;
+  top: 20%;
+}
+.form-container{
+  background-color: #e91e63;
+  margin: auto;
+  border-radius: 15px;
+}
+.sign-up{
+  border-color: #fff;
+}
+.sign-up:hover{
+  background-color: #fff;
+  border-color: #e91e63;
+}
+.sign-up a{
+  color: #fff;
+}
+.sign-up:hover a{
+  color: #e91e63;
+}
+
